@@ -2,11 +2,11 @@ students_list=[]
 
 def add_student():
     name=input("enter the student's name:")
-    age=int(input("enter the student's place:"))
+    age=int(input("enter the student's age:"))
     place=input("enter the student's place:")
     student={'Name':name,'Age':age,'Place':place}
     students_list.append(student)
-    print("student{name}added successfully.")
+print(f"student added successfully.")
 
 def delete_student():
     name=input("enter the name of the student to delete:")   
@@ -15,7 +15,7 @@ def delete_student():
             students_list.remove(student)
             print(f"student {name} deleted successfully.")    
             return
-        print("student not found")    
+print("student not found")    
 
 def search_student():
     name=input("enter the name of the student to search:")  
@@ -23,7 +23,7 @@ def search_student():
         if student['Name'].lower()==name.lower():
             print(f"student found:{student}")
             return
-        print("student not found")
+print("student not found")
 
 def show_all_students():
     if not students_list:
