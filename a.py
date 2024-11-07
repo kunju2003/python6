@@ -50,3 +50,7 @@ def sum(x,y):
 res=reduce(sum,l)
 print(res)
 
+l=[1,3,26,15,7,21,5]
+res=list(filter(lambda x:x%3==0,l))
+print(res)
+
