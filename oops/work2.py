@@ -1,7 +1,7 @@
 class banking:
     def __init__(self):
-        
         self.balance=0
+        self.status=False
     def register(self):
         self.username=input("enter your username:")
         self.password=(input("enter your password:"))
@@ -14,6 +14,7 @@ class banking:
        if name==self.username:
            password=input("enter your password:")
            if password==self.password:
+               self.status=True
                print("successfully logged in")
            else:
                print("invalid")   
@@ -57,9 +58,9 @@ while True:
     elif choice==2:
         user.login()
     elif choice==3:
-         break
+        break
     else:
-         print("invalid choice")
+        print("invalid choice")
 
 while True:
     print("""
