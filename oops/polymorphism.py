@@ -5,6 +5,6 @@ class school:
 class tution(school):
     def teacher(self):
         super().teacher()
-        print("teacher_tution")  
+        print("teacher_tution")         
 std1=tution()
 std1.teacher()        
