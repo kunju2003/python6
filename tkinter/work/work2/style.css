@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("images/images/wp1870448.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.container{
+    display: flex;
+    width: 70%;
+    max-width: 800px;
+    
+}
+.left{
+    flex: 1;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+
+}
+.left h1{
+    font-size: 60px;
+}
+.left span{
+    font-size: 45px;
+    font-weight: lighter;
+    display: block;
+    opacity: 0.8;
+    
+}
+.right{
+    flex: 1;
+    /* background: white; */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login{
+    width: 100%;
+    
+    max-width: 300px;
+}
+
+.input {
+    width: 150%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+
+/* .login input{
+    width: 150%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    padding:  10px;
+    font-size: 25px;
+    
+} */
+.rem{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: white;
+    left: 50%;
+}
+
+
+.rem a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+.btn{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    background-color: lightblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
